@@ -6,7 +6,10 @@ h1 {
 	font-weight: 900;
 	font-size: 45px;
 	text-align: left;
-	margin: 20px;
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
 	color: #9AEB8C;
 	width: 60px;
 }
@@ -21,6 +24,7 @@ h2 {
 	color: #FF5C42;
 	letter-spacing: -.015em;
 	max-width: 850px;
+	margin: 0px;
 }
 
 p {
