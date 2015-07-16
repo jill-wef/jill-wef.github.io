@@ -12,7 +12,6 @@ h1 {
 	margin-bottom: 20px;
 	margin-left: 20px;
 	color: #999;
-	width: 60px;
 }
 
 nav {
@@ -23,6 +22,7 @@ nav {
 h2 {
 	font-size: 250px;
 	color: #000;
+	text-align: center;
 	letter-spacing: -.015em;
 	max-width: 850px;
 	margin: 0px;
@@ -30,27 +30,40 @@ h2 {
 
 p {
 	font-family: 'Crimson Text', serif;
-	font-size: 3.75em;
-	font-weight: 500;
+	font-size: 3.5em;
+	font-weight: 400;
+	color: #000;
 	letter-spacing: -.025em;
 	max-width: 850px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "myriad-pro", arial, sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+}
+
+h5 {
+	font-family: "myriad-pro", arial, sans-serif;
+	font-size: 2em;
+	font-weight: 900;
+	text-align: center;
 }
 
 a {
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 400;
 	text-decoration: none;
 	color: #999;
 	margin: 20px;
 }
 
-img {
-	width: 100%;
-}
-
 ul {
-	font-size: 45px;
-	font-weight: 300;
+	font-size: 2em;
+	font-weight: 900;
+	text-align: center;
 	list-style-type: none;
 	max-width: 850px;
 }
@@ -61,25 +74,15 @@ footer {
 
 h6 {
 	font-size: 27px;
-	font-weight: 300;
+	font-weight: 400;
 	max-width: 850px;
 	text-align: center;
 }
 
-.section-1 {
+#section-1 {
 	background-color: #999;
-	position: absolute;
-	width: 100%;
-	text-align: center;
 }
 
-#slogan {
-	color: #000;
-}
-
-#how-it-works {
-	font-family: "myriad-pro", arial, sans-serif;
-}
 
 /*.masthead {
 	width: 100%;
