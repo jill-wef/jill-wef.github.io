@@ -1,16 +1,19 @@
 body {
-	font-family: "myriad-pro", sans-serif;
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 9px;
+	text-align: center;
 }
-
 
 h1 {
 	font-weight: 900;
-	font-size: 45px;
+	font-size: 5em;
 	text-align: left;
-	margin-top: 12px;
+	line-height: 0em;
+	letter-spacing: -.015em;
+	margin-top: 11px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 20px;
+	margin-left: 0px;
 	color: #999;
 }
 
@@ -20,52 +23,49 @@ nav {
 }
 
 a {
-	font-size: 24px;
+	font-size: 2.5em;
 	font-weight: 400;
 	text-decoration: none;
 	color: #999;
-	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 h2 {
-	font-size: 250px;
+	font-size: 25em;
+	font-weight: 900;
+	line-height: 1.168em;
 	color: #000;
-	text-align: center;
 	letter-spacing: -.015em;
-	max-width: 850px;
 	margin: 0px;
 }
 
 p {
 	font-family: 'Crimson Text', serif;
-	font-size: 3.5em;
+	font-size: 6em;
 	font-weight: 400;
+	line-height: 1.168em;
 	color: #000;
-	letter-spacing: -.025em;
-	max-width: 850px;
-	text-align: center;
+	letter-spacing: -.020em;
 }
 
 h3 {
-	font-family: "myriad-pro", arial, sans-serif;
-	font-size: 3em;
-	font-weight: 750;
-	text-align: center;
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 6em;
+	font-weight: 900;
 }
 
 h5 {
-	font-family: "myriad-pro", arial, sans-serif;
-	font-size: 2em;
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 2.5em;
 	font-weight: 900;
-	text-align: center;
+	letter-spacing: 0em;
 }
 
 ul {
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: 900;
-	text-align: center;
 	list-style-type: none;
-	max-width: 850px;
 }
 
 footer {
@@ -73,14 +73,40 @@ footer {
 }
 
 h6 {
-	font-size: 27px;
-	font-weight: 400;
-	max-width: 850px;
-	text-align: center;
+	font-size: 2.5em;
+	font-weight: 900;
+	line-height: 1.168em;
 }
 
-#section-1 {
+#masthead {
+	max-width: 1200px;
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 11px;
+	padding-right: 0px;
+	padding-bottom: 11px;
+}
+
+.wrap {
+	max-width: 850px;
+	margin: auto;
+	padding: 10px;
+}
+
+
+#intro {
 	background-color: #999;
+	margin: 0;
+}
+
+#select {
+	background-color: #FFF;
+	margin: 0;
+}
+
+#create {
+	background-color: #999;
+	margin: 0;
 }
 
 
