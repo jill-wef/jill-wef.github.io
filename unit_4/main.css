@@ -2,6 +2,7 @@ body {
 	font-family: "myriad-pro", 'arial', sans-serif;
 	font-size: 9px;
 	text-align: center;
+	margin: 0;
 }
 
 h1 {
@@ -10,10 +11,7 @@ h1 {
 	text-align: left;
 	line-height: 0em;
 	letter-spacing: -.015em;
-	margin-top: 11px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 18px 0 0 0;
 	color: #999;
 }
 
@@ -27,8 +25,7 @@ a {
 	font-weight: 400;
 	text-decoration: none;
 	color: #999;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 0 20px;
 }
 
 h2 {
@@ -37,7 +34,7 @@ h2 {
 	line-height: 1.168em;
 	color: #000;
 	letter-spacing: -.015em;
-	margin: 0px;
+	margin: 0 0 .06em 0;
 }
 
 p {
@@ -45,14 +42,20 @@ p {
 	font-size: 6em;
 	font-weight: 400;
 	line-height: 1.168em;
+	max-width: 1200px;
 	color: #000;
 	letter-spacing: -.020em;
+	margin: 0;
+	padding: 1em 3.5em 1em 3.5em;
 }
 
 h3 {
 	font-family: "myriad-pro", 'arial', sans-serif;
 	font-size: 6em;
 	font-weight: 900;
+	line-height: .5em;
+	margin: 0;
+	padding: .5em;
 }
 
 h5 {
@@ -60,55 +63,51 @@ h5 {
 	font-size: 2.5em;
 	font-weight: 900;
 	letter-spacing: 0em;
+	line-height: 0;
+	margin: 0;
 }
 
 ul {
 	font-size: 2.5em;
 	font-weight: 900;
 	list-style-type: none;
-}
-
-footer {
-	background-color: #FFF;
+	margin: 0;
 }
 
 h6 {
 	font-size: 2.5em;
 	font-weight: 900;
 	line-height: 1.168em;
+	margin: 0;
+	background-color: #FFF;
+	padding: 2em 7.5em;
+	line-height: 1.618em;
+	margin: 0;
 }
 
 #masthead {
+	background-color: #FFF;
 	max-width: 1200px;
-	margin: auto;
-	padding-left: 20px;
-	padding-top: 11px;
-	padding-right: 0px;
-	padding-bottom: 11px;
+	padding: 11px 17px 11px 17px;
 }
-
-.wrap {
-	max-width: 850px;
-	margin: auto;
-	padding: 10px;
-}
-
 
 #intro {
 	background-color: #999;
-	margin: 0;
 }
 
 #select {
 	background-color: #FFF;
-	margin: 0;
 }
 
 #create {
 	background-color: #999;
-	margin: 0;
 }
 
+/*.wrap {
+	background-color: black;
+	margin: 0 3em;
+	padding: 0 3em;
+}
 
 /*.masthead {
 	width: 100%;
