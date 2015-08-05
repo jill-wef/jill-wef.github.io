@@ -116,9 +116,22 @@ footer {
 	line-height: 75px;
 }
 
+section p:first-of-type {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: .5em;
+}
+
 p {
 	font-size: 1.2em;
 	line-height: 1.2em;
+	margin-bottom: .5em;
+}
+
+section p:last-of-type {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	text-transform: uppercase;
 }
 
 article header {
@@ -128,8 +141,10 @@ article header {
 header h4 {
 	font-size: 2em;
 	font-weight: 700;
-	margin: 0;
 	line-height: 1.618em;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 header h3 {
@@ -139,14 +154,20 @@ header h3 {
 	font-variant: normal;
 	text-transform: none;
 	font-weight: 400;
-	line-height: .75em;
+	line-height: .5em;
 	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 section {
 	border-top: 1px solid #000;
 	float: left;
-	padding-top: 8px;
+	padding-top: 9px;
+}
+
+article + article {
+	margin: 40px 0;
 }
 
 .st-john {
@@ -157,6 +178,8 @@ section {
 	float: left;
 	width: 530px;
 	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 .image-right {
@@ -164,9 +187,27 @@ section {
 	margin: 0 0 0 65px;
 }
 
-#top-nav {
+.mountain-biking {
+	width: 863px;
+}
+
+.text-right {
+	float: right;
+	width: 530px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.image-left {
 	float: left;
-	margin: 17px 0 0 423px;
+	margin: 0 65px 0 0;
+}
+
+
+#top-nav {
+	float: right;
+	margin: 17px 0 0 0px;
 }
 
 .column-1 {
@@ -199,6 +240,24 @@ section {
 	height: 0;
 }
 
+.st-john:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.mountain-biking:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 #wordmark {
 	width: 278px;
 	margin: 0px 0 5px 0;
@@ -213,8 +272,8 @@ section {
 }
 
 #bottom-nav {
-	float: left;
-	margin: 0 0 0 330px;
+	float: right;
+	margin: 0 0 0 0px;
 }
 
 #copyright-line {
