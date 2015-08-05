@@ -51,7 +51,19 @@ h4 {
 	margin-bottom: .3em;
 }
 
-nav a {
+span:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding: 0 0 2px 0px;
+}
+
+span:active {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	padding: 0 0 2px 0px;
+}
+
+nav a:link {
 	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
 	font-size: 1em;
 	font-weight: 400;
@@ -60,6 +72,19 @@ nav a {
 	letter-spacing: .027em;
 	color: #fff;
 	padding-left: 20px;	
+}
+
+nav a:visited {
+	color: #fff;
+	padding-left: 20px;	
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+nav a:active {
+	color: #fff;
 }
 
 main {
@@ -78,17 +103,65 @@ h5 {
 	font-weight: 400;
 	letter-spacing: .027em;
 	color: #fff;
-	line-height: 40px;
+	line-height: 75px;
 }
 
 footer {
-	background-color: #999;
-	padding: 20px 165px;
+	background-color: #000;
+	padding: 0px 165px;
 	width: 100%;
 	max-width: 863px;
-	height: 40px;
-	border-top: 6px solid #000;
+	height: 75px;
 	margin: 0;
+	line-height: 75px;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+article header {
+	padding: 0;
+}
+
+header h4 {
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.618em;
+}
+
+header h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-weight: 400;
+	line-height: .75em;
+	margin: 0;
+}
+
+section {
+	border-top: 1px solid #000;
+	float: left;
+	padding-top: 8px;
+}
+
+.st-john {
+	width: 863px;
+}
+
+.text-left {
+	float: left;
+	width: 530px;
+	margin: 0;
+}
+
+.image-right {
+	float: left;
+	margin: 0 0 0 65px;
 }
 
 #top-nav {
@@ -142,7 +215,6 @@ footer {
 #bottom-nav {
 	float: left;
 	margin: 0 0 0 330px;
-	line-height: 40px;
 }
 
 #copyright-line {
