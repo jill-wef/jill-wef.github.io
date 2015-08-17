@@ -1,0 +1,131 @@
+body {
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 9px;
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 5em;
+	text-align: left;
+	line-height: 0em;
+	letter-spacing: -.015em;
+	margin: 18px 0 0 0;
+	color: #999;
+}
+
+nav {
+	width: 100%;
+	text-align: right;
+}
+
+a {
+	font-size: 2.5em;
+	font-weight: 400;
+	text-decoration: none;
+	color: #999;
+	margin: 0 20px;
+}
+
+h2 {
+	font-size: 25em;
+	font-weight: 900;
+	line-height: 1.168em;
+	color: #000;
+	letter-spacing: -.015em;
+	margin: 0 0 .06em 0;
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+	font-size: 6em;
+	font-weight: 400;
+	line-height: 1.168em;
+	max-width: 1200px;
+	color: #000;
+	letter-spacing: -.020em;
+	margin: 0;
+	padding: 1em 3.5em 1em 3.5em;
+}
+
+h3 {
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 6em;
+	font-weight: 900;
+	line-height: .5em;
+	margin: 0;
+	padding: .5em;
+}
+
+h5 {
+	font-family: "myriad-pro", 'arial', sans-serif;
+	font-size: 2.5em;
+	font-weight: 900;
+	letter-spacing: 0em;
+	line-height: 0;
+	margin: 0;
+}
+
+ul {
+	font-size: 2.5em;
+	font-weight: 900;
+	list-style-type: none;
+}
+
+h6 {
+	font-size: 2.5em;
+	font-weight: 900;
+	line-height: 1.168em;
+	margin: 0;
+	background-color: #FFF;
+	padding: 2em 7.5em;
+	line-height: 1.618em;
+	margin: 0;
+}
+
+#masthead {
+	background-color: #FFF;
+	max-width: 1200px;
+	padding: 11px 17px 11px 17px;
+}
+
+#intro {
+	background-color: #999;
+}
+
+#select {
+	background-color: #FFF;
+}
+
+#create {
+	background-color: #999;
+}
+
+/*.wrap {
+	background-color: black;
+	margin: 0 3em;
+	padding: 0 3em;
+}
+
+/*.masthead {
+	width: 100%;
+	position: absolute;
+	height: 60px;
+    top: 0;
+    left: 0;
+}
+
+.top-contact-us {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: right;
+}
+
+.background-1 {
+	width: 100%;
+	height: 540px;
+	background-color: #FFF;
+	position: absolute;
+	top: 60px;
+}
