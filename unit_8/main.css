@@ -10,8 +10,8 @@ body {
 }
 
 img {
-	display: inline-block;
-	margin: 0;
+	display: block;
+	margin: auto;
 	border: 0;
 }
 
@@ -113,7 +113,7 @@ h6 + h5 + h5 {
 }
 
 p + img {
-	margin: 4em;
+	margin: 4em auto;
 }
 
 footer {
@@ -138,8 +138,7 @@ footer {
 .rate-box {
 	background-color: #FFF;
 	width: 388px;
-	margin: 0 0 1.5em 0;
-	display: inline-block;
+	margin: 0 auto 1.5em;
 	border: 0;
 }
 
@@ -151,30 +150,19 @@ footer {
 	border: 0;
 }
 
-.intro-wrapper {
+.wrapper {
 	max-width: 800px;
-	min-width: 800px;
+	margin: 2em auto 0;
+	border: 1px solid red;
+}
+
+.wrapper:first-of-type {
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
-.create-wrapper {
-	max-width: 800px;
-	min-width: 800px;
-	margin: 2em auto 0 auto;
-	border: 1px solid red;
-}
-
-.rate-wrapper {
-	max-width: 800px;
-	min-width: 800px;
-	margin: 2em auto 0 auto;
-	border: 1px solid red;
-}
-
-.contact-wrapper {
+#contact-wrapper {
+	width: 70%;
 	max-width: 700px;
-	min-width: 700px;
 	margin: 8em auto 0 auto;
 	border: 1px solid red;
 }
