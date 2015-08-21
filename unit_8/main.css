@@ -3,6 +3,7 @@ body {
 	font-size: 9px;
 	text-align: center;
 	margin: 0;
+	color: #510b23;
 }
 
 img {
@@ -17,7 +18,7 @@ h1 {
 	font-size: 5em;
 	text-align: left;
 	letter-spacing: -.015em;
-	color: #999;
+	color: #c2976d;
 	padding: ;
 }
 
@@ -34,7 +35,7 @@ nav a {
 	font-size: 2.5em;
 	font-weight: 400;
 	text-decoration: none;
-	color: #999;
+	color: #c2976d;
 	padding: 0 2em 0 0;
 }
 
@@ -42,7 +43,7 @@ h2 {
 	font-size: 25em;
 	font-weight: 900;
 	line-height: 1.168em;
-	color: #000;
+	color: #510b23;
 	letter-spacing: -.015em;
 	margin: 0 auto .06em;
 }
@@ -53,7 +54,7 @@ p {
 	font-weight: 400;
 	line-height: 1.168em;
 	width: 100%;
-	color: #000;
+	color: #510b23;
 	letter-spacing: -.020em;
 	margin: 0;
 }
@@ -87,7 +88,7 @@ h6 {
 	text-align: center;
 	line-height: 1.618em;
 	letter-spacing: -.015em;
-	color: #999;
+	color: #f4c163;
 }
 
 span {
@@ -111,7 +112,7 @@ p + img {
 }
 
 footer {
-	background-color: #999;
+	background-color: #8ecdd5;
 }
 
 .wordmark {
@@ -146,7 +147,7 @@ footer {
 }
 
 .rate-box-3 {
-	background-color: #999;
+	background-color: #ee805c;
 	width: 96%;
 	padding: .5em 2%;
 	margin: 0 0 4em;
@@ -176,7 +177,7 @@ footer {
 .circle-fill {
 	width: 74px;
 	height: 74px;
-	background-color: #999;
+	background-color: #f4c163;
 	border-radius: 74px;
 	position: relative;
   	top: -38px;
@@ -206,6 +207,7 @@ footer {
 .image-container {
 	width: 95%;
 	max-width: 950px;
+	min-width: 190px;
 	margin: 4em auto 0 auto;
 }
 
@@ -229,7 +231,7 @@ footer {
 }
 
 #intro {
-	background-color: #999;
+	background-color: #ee805c;
 	width: 100%;
 	height: 57em;
 	margin: 0;
@@ -242,7 +244,7 @@ footer {
 }
 
 #enter {
-	background-color: #999;
+	background-color: #f4c163;
 	width: 100%;
 	height: 70em;
 }
@@ -254,7 +256,7 @@ footer {
 }
 
 #contact {
-	background-color: #999;
+	background-color: #8ecdd5;
 	width: 100%;
 	height: 55em;
 }
@@ -299,13 +301,13 @@ footer {
 	.two-images {
 		float: none;
 		margin: auto;
+		width: 60%;
 	}
 	#create {
-		height: 90em;
+		height: 95em;
 	}
 	.image-container {
 		width: 24%;
-		max-width: 195px;
 		margin: 3em auto 0;
 	}
 	.rate-images {
@@ -327,6 +329,15 @@ footer {
 	}
 	#enter {
 		height: 118em;
+	}
+	.two-images {
+		width: 65%;
+	}
+	#create {
+		height: 105em;
+	}
+	#rate {
+		height: 140em;
 	}
 }
 
@@ -351,6 +362,12 @@ footer {
 	}
 	#enter {
 		height: 97em;
+	}
+	#create {
+		height: 80em;
+	}
+	#rate {
+		height: 135em;
 	}
 }
 
