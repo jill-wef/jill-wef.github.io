@@ -16,14 +16,14 @@ h1 {
 	font-weight: 900;
 	font-size: 5em;
 	text-align: left;
-	line-height: .6em;
 	letter-spacing: -.015em;
 	color: #999;
+	padding: ;
 }
 
 nav {
 	float: right;
-	margin: 2em;
+	padding: 2em 0 0;
 }
 
 li {
@@ -35,7 +35,7 @@ nav a {
 	font-weight: 400;
 	text-decoration: none;
 	color: #999;
-	padding: 0 1em;
+	padding: 0 2em 0 0;
 }
 
 h2 {
@@ -147,17 +147,16 @@ footer {
 
 .rate-box-3 {
 	background-color: #999;
-	width: 100%;
-	margin: 0;
-	border: 0;
-	padding: 0;
+	width: 96%;
+	padding: .5em 2%;
+	margin: 0 0 4em;
 }
 
 .wrapper {
 	width: 80%;
 	max-width: 800px;
-	margin: 2em auto 0;
-	border: 1px solid green;
+	margin: 1.5em auto 0;
+	padding: 0 0 2em 0;
 }
 
 .wrapper:first-of-type {
@@ -187,8 +186,7 @@ footer {
 .two-col-wrapper {
 	width: 88%;
 	max-width: 875px;
-	margin: 2em auto 0 auto;
-	border: 1px solid #00FF00;
+	margin: 1.5em auto 0 auto;
 }
 
 .right-col {
@@ -196,7 +194,6 @@ footer {
 	width: 46%;
 	margin-left: 3%;
 	max-width: 475px;
-	border: 1px solid red;
 }
 
 .left-col {
@@ -204,14 +201,12 @@ footer {
 	width: 46%;
 	margin-right: 3%;
 	max-width: 388px;
-	border: 1px solid red;
 }
 
 .image-container {
-	width: 100%;
+	width: 95%;
 	max-width: 950px;
-	margin: 4em auto 2em auto;
-	border: 1px solid #00FF00;
+	margin: 4em auto 0 auto;
 }
 
 .rate-images {
@@ -223,67 +218,58 @@ footer {
 #masthead {
 	background-color: #FFF;
 	width: 100%;
-	margin: 2em 1em 0 2em;
-}
-
-#menu {
-	display: block;
-	list-style: none;
+	padding: .5em 0 1em 2em;
 }
 
 #contact-wrapper {
 	width: 70%;
 	max-width: 700px;
-	margin: 8em auto 0 auto;
-	border: 1px solid red;
+	margin: 0 auto;
+	padding: 7em 0 5em 0;
 }
 
 #intro {
 	background-color: #999;
 	width: 100%;
 	height: 57em;
-	border: 1px solid red;
 	margin: 0;
-	border: 1px solid red;
 }
 
 #create {
 	background-color: #FFF;
 	width: 100%;
 	height: 60em;
-	border: 1px solid red
 }
 
 #enter {
 	background-color: #999;
 	width: 100%;
 	height: 70em;
-	border: 1px solid blue;
 }
 
 #rate {
 	background-color: #FFF;
 	width: 100%;
-	height: 62em;
-	border: 1px solid red;
+	height: 60em;
 }
 
 #contact {
 	background-color: #999;
 	width: 100%;
 	height: 55em;
-	border: 1px solid red;
 }
 
 #facebook-logo {
 	width: 8%;
-	margin: 3em auto;
-	border: 1px solid blue;
+	margin: 0 auto;
 }
 
 @media only screen and (max-width: 1000px) {
 	body {
 		font-size: 8px;
+	}
+	#rate {
+		height: 68em;
 	}
 }
 
@@ -293,15 +279,13 @@ footer {
 	width: 100%;
 	margin: 0 auto 4em;
 	max-width: 800px;
-	border: 1px solid red;
 }
 
 .left-col {
 	float: none;
-	width: 100%;
+	width: 85%;
 	margin: auto;
 	max-width: 388px;
-	border: 1px solid red;
 }
 
 #enter {
@@ -311,21 +295,64 @@ footer {
 @media only screen and (max-width: 795px) {
 	body {
 		font-size: 7px;
-}
+	}
 	.two-images {
 		float: none;
 		margin: auto;
-}
-#create {
-	height: 90em;
-}
+	}
+	#create {
+		height: 90em;
+	}
+	.image-container {
+		width: 24%;
+		max-width: 195px;
+		margin: 3em auto 0;
+	}
+	.rate-images {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	#rate {
+		height: 127em;
+	}
 }
 
-/*@media only screen and (max-width: 685px) {
+@media only screen and (max-width: 674px) {
 	body {
-		font-size: 6.5px;
+		font-size: 6px;
+	}
+	#intro {
+		height: 67em;
+	}
+	#enter {
+		height: 118em;
+	}
+}
 
-}*/
+@media only screen and (max-width: 400px) {
+	p {
+		font-size: 3.25em;
+	}
+	h2 {
+		font-size: 14em;
+	}
+	nav a {
+	padding: 0 1.5em 0 0;
+	}
+	nav {
+	float: right;
+	}
+	#intro {
+		height: 44em;
+	}
+	#contact {
+		height: 40em;
+	}
+	#enter {
+		height: 97em;
+	}
+}
 
 /*@media only screen and (max-width: 780px) {
 	body {
@@ -345,16 +372,7 @@ footer {
 	}
 }
 */
-/*@media only screen and (max-width: 620px) {
-	p {
-		font-size: 3.25em;
-	}
-	h2 {
-		font-size: 14em;
-	}
-	.two-images {
-		float: none;
-	}*/
+
 /*
 }*/
 
