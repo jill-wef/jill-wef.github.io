@@ -64,12 +64,12 @@ h3 {
 	font-family: "myriad-pro", 'arial', sans-serif;
 	font-size: 5em;
 	font-weight: 900;
-	line-height: 76px;
+	line-height: 74px;
 }
 
 h4 {
 	font-family: "myriad-pro", 'arial', sans-serif;
-	font-size: 2.5em;
+	font-size: 3em;
 	font-weight: 900;
 	letter-spacing: 0em;
 	line-height: 1.618em;
@@ -100,12 +100,12 @@ img + h4 {
 	margin: 1em 0 0;
 }
 
-p + h4 {
-	margin: 1.5em 0 0 0;
+p + h3 {
+	margin: .5em 0 0 0;
 }
 
-h6 + h5 + h5 {
-	margin: 0;
+h3 + p {
+	margin: 0 0 .5em 0;
 }
 
 p + img {
@@ -158,6 +158,7 @@ footer {
 	width: 80%;
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 4em 0 0;
 }
 
 .circle {
@@ -167,7 +168,8 @@ footer {
 	border-radius: 74px;
 	position: absolute;
   	top: -38px;
-  	margin-left: 47.5%;
+  	left: 50%;
+  	transform: translateX(-50%);
 }
 
 .circle-fill {
@@ -177,13 +179,15 @@ footer {
 	border-radius: 74px;
 	position: absolute;
   	top: -38px;
-  	margin-left: 47.5%;
+	left: 50%;
+  	transform: translateX(-50%);
 }
 
 .two-col-wrapper {
 	width: 88%;
 	max-width: 875px;
-	margin: 1.5em auto 0 auto;
+	margin: 1.5em auto 0;
+	padding: 4em 0 0 0;
 }
 
 .right-col {
@@ -222,7 +226,7 @@ footer {
 #intro-wrapper {
 	width: 80%;
 	max-width: 800px;
-	padding: 0 0 2em 0;
+	padding: 0;
 	margin: 0 auto;
 }
 
@@ -236,8 +240,9 @@ footer {
 #intro {
 	background-color: #ee805c;
 	width: 100%;
-	height: 57em;
+	height: 63em;
 	margin: 0;
+	padding: 0;
 }
 
 #create {
@@ -257,7 +262,7 @@ footer {
 #rate {
 	background-color: #FFF;
 	width: 100%;
-	height: 60em;
+	height: 65em;
 	position: relative;
 }
 
@@ -279,9 +284,15 @@ footer {
 	#rate {
 		height: 68em;
 	}
+	#enter {
+		height: 80em;
+	}
 }
 
 @media only screen and (max-width: 886px) {
+	body {
+		font-size: 7.5px;
+	}
 	.right-col {
 	float: none;
 	width: 100%;
@@ -297,7 +308,7 @@ footer {
 }
 
 #enter {
-	height: 100em;
+	height: 105em;
 }
 
 @media only screen and (max-width: 795px) {
@@ -343,7 +354,7 @@ footer {
 		height: 105em;
 	}
 	#rate {
-		height: 140em;
+		height: 150em;
 	}
 }
 
@@ -377,25 +388,4 @@ footer {
 	}
 }
 
-/*@media only screen and (max-width: 780px) {
-	body {
-		font-size: 6.5px;
-	}
-}
-
-@media only screen and (max-width: 725px) {
-	body {
-		font-size: 6px;
-	}
-}
-
-@media only screen and (max-width: 670px) {
-	body {
-		font-size: 5px;
-	}
-}
-*/
-
-/*
-}*/
 
