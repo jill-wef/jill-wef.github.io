@@ -234,58 +234,52 @@ footer {
 	width: 70%;
 	max-width: 700px;
 	margin: 0 auto;
-	padding: 7em 0 5em 0;
+	padding: 0 0 5em 0;
 }
 
 #intro {
 	background-color: #ee805c;
 	width: 100%;
-	height: 63em;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 6em 0;
 }
 
 #create {
 	background-color: #FFF;
 	width: 100%;
-	height: 60em;
 	position: relative;
+	padding: 0 0 6em 0;
 }
 
 #enter {
 	background-color: #f4c163;
 	width: 100%;
-	height: 70em;
 	position: relative;
+	padding: 0 0 9em 0;
 }
 
 #rate {
 	background-color: #FFF;
 	width: 100%;
-	height: 65em;
 	position: relative;
+	padding: 0 0 6em 0;
 }
 
 #contact {
 	background-color: #8ecdd5;
 	width: 100%;
-	height: 55em;
+	padding: 6em 0 12em;
 }
 
 #facebook-logo {
 	width: 8%;
+	max-width: 59px;
 	margin: 0 auto;
 }
 
 @media only screen and (max-width: 1000px) {
 	body {
 		font-size: 8px;
-	}
-	#rate {
-		height: 68em;
-	}
-	#enter {
-		height: 80em;
 	}
 }
 
@@ -306,10 +300,6 @@ footer {
 	margin: auto;
 	max-width: 388px;
 	}
-
-	#enter {
-	height: 105em;
-	}
 }
 
 @media only screen and (max-width: 795px) {
@@ -321,9 +311,6 @@ footer {
 		margin: auto;
 		width: 60%;
 	}
-	#create {
-		height: 95em;
-	}
 	.image-container {
 		width: 24%;
 		margin: 3em auto 0;
@@ -333,29 +320,14 @@ footer {
 		float: none;
 		margin: 0;
 	}
-	#rate {
-		height: 127em;
-	}
 }
 
 @media only screen and (max-width: 674px) {
 	body {
 		font-size: 6px;
 	}
-	#intro {
-		height: 67em;
-	}
-	#enter {
-		height: 118em;
-	}
 	.two-images {
 		width: 65%;
-	}
-	#create {
-		height: 105em;
-	}
-	#rate {
-		height: 150em;
 	}
 }
 
@@ -371,21 +343,6 @@ footer {
 	}
 	nav {
 	float: right;
-	}
-	#intro {
-		height: 44em;
-	}
-	#contact {
-		height: 40em;
-	}
-	#enter {
-		height: 97em;
-	}
-	#create {
-		height: 80em;
-	}
-	#rate {
-		height: 135em;
 	}
 }
 
