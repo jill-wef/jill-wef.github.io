@@ -223,6 +223,13 @@ footer {
 	padding: .5em 0 1em 2em;
 }
 
+#bg {
+	position: fixed;
+	top: 7em;
+	left: 0;
+	min-width: 100%;
+}
+
 #intro-wrapper {
 	width: 80%;
 	max-width: 800px;
