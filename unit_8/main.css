@@ -221,12 +221,13 @@ footer {
 	background-color: #FFF;
 	width: 100%;
 	padding: .5em 0 1em 2em;
+/*	position: absolute;*/
 }
 
 #bg {
-	position: fixed;
-	top: 7em;
-	left: 0;
+/*	position: relative;*/
+/*	top: 7em;
+	left: 0;*/
 	min-width: 100%;
 }
 
