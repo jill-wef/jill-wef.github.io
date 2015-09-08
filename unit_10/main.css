@@ -1,0 +1,290 @@
+/** {
+   border: 1px solid red !important;
+}*/
+
+body {
+	font-family: 'Rokkitt', serif;
+	font-size: 14px;
+	margin: 0;
+	color: #000;
+}
+
+img {
+	width: 100%;
+	border: 2px solid #000;
+}
+
+header {
+	height: 4.8em;
+	width: 100%;
+	max-width: 863px;
+	border: solid 1px red;
+}
+
+h1 {
+	font-size: 2.6em;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1em;
+	text-align: left;
+	color: #fff;
+	letter-spacing: .027em;
+}
+
+h2 {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.618em;
+	text-align: right;
+	color: #fff;
+	letter-spacing: .28em;
+}
+
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-bottom: .3em;
+}
+
+span:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding: 0 0 .28em 0px;
+}
+
+span:active {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	padding: 0 0 .28em 0;
+}
+
+nav a:link {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .027em;
+	color: #fff;
+	padding-left: 1.4em;	
+}
+
+nav a:visited {
+	color: #fff;
+	padding-left: 1.4em;	
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+nav a:active {
+	color: #fff;
+}
+
+main {
+	width: 100%;
+	max-width: 863px;
+	margin: 4em 12.5% 4em 12.5%;
+}
+
+h5 {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: .027em;
+	color: #fff;
+	line-height: 5.4em;
+}
+
+footer {
+	background-color: #000;
+	padding: 0px 12.5%;
+	width: 100%;
+	height: 5.4em;
+	border: solid 1px red;
+}
+
+section p:first-of-type {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: .5em;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: .5em;
+}
+
+section p:last-of-type {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+article header {
+	padding: 0;
+}
+
+header h4 {
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1.618em;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+header h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-weight: 400;
+	line-height: .5em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+section {
+	border-top: 1px solid #000;
+	float: left;
+	padding-top: .64em;
+}
+
+article + article {
+	margin: 2.8em 0;
+}
+
+.st-john {
+	width: 863px;
+}
+
+.text-left {
+	float: left;
+	width: 530px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.image-right {
+	float: left;
+	margin: 0 0 0 65px;
+}
+
+.mountain-biking {
+	width: 863px;
+}
+
+.text-right {
+	float: right;
+	width: 530px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.image-left {
+	float: left;
+	margin: 0 65px 0 0;
+}
+
+.column-1 {
+	float: left;
+	width: 33.3%;
+	max-width: 266px;
+	margin: 0 2.2em 3em 0;
+}
+
+.column-2 {
+	float: left;
+	width: 33.3%;
+	max-width: 266px;
+	margin: 0 2.2em 3em 0;
+}
+
+.column-3 {
+	float: left;
+	width: 33.3%;
+	max-width: 266px;
+	margin: 0 0 2.2em 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.st-john:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.mountain-biking:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#top-nav {
+	float: right;
+	margin: 1.2em 0 0 0;
+	border: solid 1px red;
+}
+
+#wordmark {
+	width: 19.9em;
+	float: left;
+	border: solid 1px red;
+}
+
+#masthead {
+	background-color: #000;
+	width: 100%;
+	height: 8.2em;
+	padding: 2em 12.5%;
+	border: solid 1px red;
+}
+
+#container-footer {
+	width: 100%;
+	max-width: 863px;
+}
+
+#copyright-line {
+	float: left;
+	line-height: 5.4em;
+	border: solid 1px red;
+}
+
+#bottom-nav {
+	float: right;
+	line-height: 5.4em;
+	border: solid 1px red;
+}
