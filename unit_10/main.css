@@ -234,6 +234,7 @@ article + article {
 	width: 75%;
 	max-width: 1000px;
 	margin: auto;
+	padding: 0 1.5% 0 1.5%;
 	border: solid 1px red;
 }
 
