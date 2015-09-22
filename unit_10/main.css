@@ -7,6 +7,7 @@ body {
 	font-size: 14px;
 	margin: 0;
 	color: #000;
+	background-color: #C9C6C6;
 }
 
 img {
@@ -34,6 +35,12 @@ h2 {
 	letter-spacing: .28em;
 }
 
+h4 {
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-bottom: .3em;
+}
+
 h3 {
 	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
 	font-size: 1em;
@@ -42,12 +49,6 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 400;
 	line-height: 1.8em;
-}
-
-h4 {
-	font-weight: 700;
-	font-size: 1.5em;
-	margin-bottom: .3em;
 }
 
 span:hover {
@@ -90,6 +91,7 @@ main {
 	width: 75%;
 	max-width: 1000px;
 	margin: 4em auto;
+	padding: 0 1% 0 1%;
 }
 
 h5 {
@@ -109,7 +111,7 @@ footer {
 section p:first-of-type {
 	font-size: 1.5em;
 	line-height: 1em;
-	margin-bottom: .5em;
+	margin-bottom: .3em;
 }
 
 p {
@@ -131,10 +133,7 @@ article header {
 header h4 {
 	font-size: 2em;
 	font-weight: 700;
-	line-height: 1.618em;
-	padding: 0;
-	margin: 0;
-	border: 0;
+	line-height: 1em;
 }
 
 header h3 {
@@ -145,15 +144,13 @@ header h3 {
 	text-transform: none;
 	font-weight: 400;
 	line-height: .5em;
-	margin: 0;
-	padding: 0;
-	border: 0;
 }
 
 section {
 	border-top: 1px solid #000;
 	float: left;
 	padding-top: .64em;
+	margin-top: .8em;
 }
 
 article + article {
@@ -161,37 +158,35 @@ article + article {
 }
 
 .st-john {
-	width: 1000px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 4em auto;
 }
 
 .text-left {
 	float: left;
-	width: 530px;
-	margin: 0;
-	padding: 0;
-	border: 0;
+	width: 60%;
 }
 
 .image-right {
-	float: left;
-	margin: 0 0 0 65px;
+	float: right;
+	width: 35%;
 }
 
 .mountain-biking {
-	width: 1000px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 4em auto;
 }
 
 .text-right {
 	float: right;
-	width: 530px;
-	margin: 0;
-	padding: 0;
-	border: 0;
+	width: 60%;
 }
 
 .image-left {
 	float: left;
-	margin: 0 65px 0 0;
+	width: 35%;
 }
 
 .column-1 {
@@ -235,7 +230,6 @@ article + article {
 	max-width: 1000px;
 	margin: auto;
 	padding: 0 1.5% 0 1.5%;
-	border: solid 1px red;
 }
 
 .clearfix:after {
@@ -250,20 +244,17 @@ article + article {
 #masthead {
 	background-color: #000;
 	width: 100%;
-	padding: 2.5em 0 1.5em 0;
-	border: solid 1px red;
+	padding: 2.5em 0 1em 0;
 }
 
 #top-nav {
 	float: right;
 	margin: 1.2em 0 0 0;
-	border: solid 1px red;
 }
 
 #wordmark {
 	width: 18em;
 	float: left;
-	border: solid 1px red;
 }
 
 #container-footer {
@@ -282,3 +273,9 @@ article + article {
 	float: right;
 	line-height: 5.4em;
 }
+
+/*@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 8px;
+	}
+}*/
