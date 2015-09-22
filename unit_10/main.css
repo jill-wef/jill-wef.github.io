@@ -47,6 +47,17 @@ h3 {
 	line-height: 1.8em;
 }
 
+nav a {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .027em;
+	color: #fff;
+	padding-left: 1.4em;	
+}
+
 span:hover {
 	color: #fff;
 	border-bottom: 1px solid #fff;
@@ -59,33 +70,9 @@ span:active {
 	padding: 0 0 .28em 0;
 }
 
-nav a:link {
-	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: .027em;
-	color: #fff;
-	padding-left: 1.4em;	
-}
-
-nav a:visited {
-	color: #fff;
-	padding-left: 1.4em;	
-}
-
-nav a:hover {
-	color: #fff;
-}
-
-nav a:active {
-	color: #fff;
-}
-
 main {
-	width: 75%;
-	max-width: 1000px;
+	width: 90%;
+	max-width: 1400px;
 	margin: 4em auto;
 	padding: 0 1% 0 1%;
 }
@@ -116,19 +103,7 @@ p {
 	margin-bottom: .5em;
 }
 
-section p a:hover {
-	color: #000;
-	border-bottom: 1px solid #000;
-	padding: 0 0 .28em 0px;
-}
-
-section p a:active {
-	color: #000;
-	border-bottom: 2px solid #000;
-	padding: 0 0 .28em 0;
-}
-
-section p a:last-of-type:link {
+section a {
 	font-size: 1.2em;
 	line-height: 1.2em;
 	text-transform: uppercase;
@@ -136,16 +111,24 @@ section p a:last-of-type:link {
 	color: #000;
 }
 
-section p a:last-of-type:visited {
+section a span:link {
 	color: #000;
 }
 
-section p a:last-of-type:hover {
+section a span:visited {
 	color: #000;
 }
 
-section p a:last-of-type:active {
+section a span:hover {
 	color: #000;
+	border-bottom: 1px solid #000;
+	padding: 0 0 .14em 0px;
+}
+
+section a span:active {
+	color: #000;
+	border-bottom: 2px solid #000;
+	padding: 0 0 .14em 0;
 }
 
 article header {
@@ -217,18 +200,6 @@ article + article {
 	margin: 0 1.5% 2.2em 1.5%;
 }
 
-.column-2 {
-	float: left;
-	width: 30.3%;
-	margin: 0 1.5% 2.2em 1.5%;
-}
-
-.column-3 {
-	float: left;
-	width: 30.3%;
-	margin: 0 1.5% 2.2em 1.5%;
-}
-
 .st-john:after {
 	visibility: hidden;
 	display: block;
@@ -248,10 +219,10 @@ article + article {
 }
 
 .container-header {
-	width: 75%;
-	max-width: 1000px;
+	width: 90%;
+	max-width: 1400px;
 	margin: auto;
-	padding: 0 1.5% 0 1.5%;
+	padding: 0 3% 0 3%;
 }
 
 .clearfix:after {
@@ -280,10 +251,10 @@ article + article {
 }
 
 #container-footer {
-	width: 75%;
+	width: 90%;
+	max-width: 1400px;
 	margin: auto;
-	padding: 0 1% 0 1%;
-	max-width: 1000px;
+	padding: 0 3% 0 3%;
 }
 
 #copyright-line {
