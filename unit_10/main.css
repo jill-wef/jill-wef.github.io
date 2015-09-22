@@ -116,10 +116,36 @@ p {
 	margin-bottom: .5em;
 }
 
-section p:last-of-type {
+section p a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+	padding: 0 0 .28em 0px;
+}
+
+section p a:active {
+	color: #000;
+	border-bottom: 2px solid #000;
+	padding: 0 0 .28em 0;
+}
+
+section p a:last-of-type:link {
 	font-size: 1.2em;
 	line-height: 1.2em;
 	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+}
+
+section p a:last-of-type:visited {
+	color: #000;
+}
+
+section p a:last-of-type:hover {
+	color: #000;
+}
+
+section p a:last-of-type:active {
+	color: #000;
 }
 
 article header {
