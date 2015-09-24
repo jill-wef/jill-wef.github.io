@@ -309,6 +309,7 @@ article + article {
 	float: none;
 	margin: 2em 5% 1em 5%;
 	padding: 0;
+	text-align: center;
 	}
 
 	#wordmark {
@@ -320,14 +321,15 @@ article + article {
 	float: none;
 	line-height: 1.5em;
 	margin: 0 auto;
-	display: inline;
+	text-align: center;
+	padding-top: 1.5em;
 	}	
 
 	#copyright-line {
 	float: none;
 	line-height: 1.5em;
 	margin: 0 auto;
-	display: inline;
+	text-align: center;
 	}
 
 }
