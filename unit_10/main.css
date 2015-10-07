@@ -198,7 +198,7 @@ article + article {
 }
 
 .column-1 a img:active {
-	border: 3px solid #fff;
+	border: 2px solid #fff;
 }
 
 .text-left {
@@ -230,6 +230,12 @@ article + article {
 .column-wide {
 	float: none;
 	width: 75%;
+	margin: 0 auto 2.2em;
+}
+
+.column-video {
+	float: none;
+	width: 420px;
 	margin: 0 auto 2.2em;
 }
 
@@ -349,7 +355,7 @@ article + article {
 
 	#top-nav {
 	float: none;
-	margin: 2em 5% 1em 5%;
+	margin: 2em auto 1em auto;
 	padding: 0;
 	text-align: center;
 	}
