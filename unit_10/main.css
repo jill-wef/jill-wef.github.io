@@ -19,6 +19,7 @@ h1 {
 	text-align: left;
 	color: #C9C6C6;
 	letter-spacing: .035em;
+	text-decoration: none;
 }
 
 h2 {
@@ -29,6 +30,7 @@ h2 {
 	text-align: right;
 	color: #C9C6C6;
 	letter-spacing: .28em;
+	text-decoration: none;
 }
 
 h4 {
@@ -290,9 +292,10 @@ article + article {
 	margin: 1.2em 0 0 0;
 }
 
-#wordmark {
+#wordmark a {
 	width: 18em;
 	float: left;
+	text-decoration: none;
 }
 
 #container-footer {
