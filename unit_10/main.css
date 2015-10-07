@@ -237,7 +237,8 @@ article + article {
 
 .column-video {
 	float: none;
-	width: 420px;
+	width: 75%;
+	max-width: 420px;
 	margin: 0 auto 2.2em;
 }
 
@@ -356,18 +357,6 @@ article + article {
 	margin: 0 1.5% 2.2em 1.5%;
 	}
 
-	#top-nav {
-	float: none;
-	margin: 2em auto 1em auto;
-	padding: 0;
-	text-align: center;
-	}
-
-	#wordmark {
-	width: 18em;
-	float: none;
-	}
-
 	#bottom-nav {
 	float: none;
 	line-height: 1.5em;
@@ -382,5 +371,31 @@ article + article {
 	margin: 0 auto;
 	text-align: center;
 	}
+}
 
+@media only screen and (max-width: 675px) {
+	#wordmark {
+	float: none;
+	}
+
+	#top-nav {
+	float: none;
+	margin: 2em auto 1em auto;
+	padding: 0;
+	text-align: center;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	iframe {
+	width: 90%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.column-tall {
+	float: none;
+	width: 75%;
+	margin: 0 auto 2.2em;
+	}
 }
