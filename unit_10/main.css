@@ -374,8 +374,13 @@ article + article {
 }
 
 @media only screen and (max-width: 675px) {
-	#wordmark {
+	#wordmark a {
 	float: none;
+	display: inline-block;
+	}
+
+	header {
+	text-align: center;
 	}
 
 	#top-nav {
