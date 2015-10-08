@@ -379,7 +379,7 @@ article + article {
 	display: inline-block;
 	}
 
-	header {
+	.container-header {
 	text-align: center;
 	}
 
@@ -388,6 +388,16 @@ article + article {
 	margin: 2em auto 1em auto;
 	padding: 0;
 	text-align: center;
+	}
+
+	nav a {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .027em;
+	color: #C9C6C6;
 	}
 }
 
