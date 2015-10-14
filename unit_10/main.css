@@ -111,6 +111,17 @@ p {
 	margin-bottom: .5em;
 }
 
+label {
+	font-family: 'Gill Sans', 'Gill Sans MT', arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	/*text-transform: uppercase;*/
+	font-weight: 400;
+	line-height: 1.8em;
+	display: block;
+}
+
 section a {
 	font-size: 1.2em;
 	line-height: 1.2em;
@@ -173,6 +184,19 @@ article {
 
 article + article {
 	margin: 2.8em 0;
+}
+
+input {
+	font-family: 'Rokkitt', serif;
+	font-size: 1.2em;
+	padding: 3px;
+	margin: 0 0 1em 0;
+}
+
+textarea {
+	font-family: 'Rokkitt', serif;
+	font-size: 1.2em;
+	padding: 3px;
 }
 
 .column-1 a:link {
@@ -288,6 +312,13 @@ article + article {
 	padding: 2.5em 0 1em 0;
 }
 
+#submit-button {
+	margin: 1em 0 2em 0;
+	display: block;
+/*	appearance: none;
+	-webkit-appearance:none;*/
+}
+
 #top-nav {
 	float: right;
 	margin: 1.2em 0 0 0;
@@ -304,10 +335,6 @@ article + article {
 	max-width: 1200px;
 	margin: auto;
 	padding: 0 1.5%;
-}
-
-#contact {
-	
 }
 
 #copyright-line {
