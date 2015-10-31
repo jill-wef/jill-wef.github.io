@@ -14,38 +14,44 @@ img {
 }
 
 h1 {
-	float: left;
 	font-weight: 900;
-	font-size: 5em;
-	text-align: left;
-	letter-spacing: -.015em;
+	font-size: 3.5em;
+	letter-spacing: -.009em;
 	color: #c2976d;
+	padding: 0 0 0 1em;
+	line-height: 2em;
 }
 
 nav {
 	float: right;
-	padding: 2em 0 0;
+	margin-right: 1em;
 }
 
 li {
-	display: inline;
+	display: inline-block;
 }
 
 nav a {
 	font-size: 2.5em;
 	font-weight: 400;
+	line-height: 3em;
 	text-decoration: none;
 	color: #c2976d;
-	padding: 0 2em 0 0;
+	padding: 1em;
+}
+
+.wordmark a {
+	text-decoration: none;
 }
 
 h2 {
-	font-size: 25em;
+	font-size: 15em;
 	font-weight: 900;
-	line-height: 1.168em;
+	line-height: 1em;
 	color: #510b23;
-	letter-spacing: -.015em;
+	letter-spacing: -.035em;
 	margin: 0 auto .06em;
+	padding: .5em 0 .25em 0;
 }
 
 p {
@@ -221,11 +227,10 @@ footer {
 #masthead {
 	background-color: #FFF;
 	width: 100%;
-	padding: .5em 0 1em 2em;
 }
 
 #intro-wrapper {
-	width: 80%;
+	width: 60%;
 	max-width: 800px;
 	padding: 0;
 	margin: 0 auto;
@@ -239,7 +244,7 @@ footer {
 }
 
 #intro {
-	background-image: url("images/istock-cutting-board-tint.jpg");
+	background-image: url("images/cuttingboard.jpg");
     background-size: cover;
     background-position: center;
 	margin: 0;
@@ -279,16 +284,19 @@ footer {
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1070px) {
 	body {
 		font-size: 8px;
 	}
 }
 
-@media only screen and (max-width: 886px) {
+@media only screen and (max-width: 950px) {
 	body {
 		font-size: 7.5px;
 	}
+}
+
+@media only screen and (max-width: 886px) {
 	.right-col {
 	float: none;
 	width: 100%;
@@ -331,6 +339,28 @@ footer {
 	.two-images {
 		width: 65%;
 	}
+	#intro-wrapper {
+	width: 80%;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	h1 {
+		padding: 0;
+	}
+	h2 {
+		font-size: 14em;
+	}
+	h3 {
+		font-size: 4em;
+	}
+	.wordmark {
+		float: none;
+	}	
+	nav {
+		float: none;
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -338,13 +368,7 @@ footer {
 		font-size: 3.25em;
 	}
 	h2 {
-		font-size: 14em;
-	}
-	nav a {
-	padding: 0 1.5em 0 0;
-	}
-	nav {
-	float: right;
+		font-size: 12em;
 	}
 }
 
